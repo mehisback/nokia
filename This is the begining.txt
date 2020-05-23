@@ -1,0 +1,2 @@
+ assert.equal(str, 'Hi');
++    assert.equal(str, 'Hi');;

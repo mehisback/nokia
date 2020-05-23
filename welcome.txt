@@ -114,7 +114,7 @@ test('Parser', {
       4 * Math.pow(256, 4) +
       3 * Math.pow(256, 5) +
       2 * Math.pow(256, 6) +
-      0 * Math.pow(256, 7);
+      0 * Math.pow(256, 7);;
 
     assert.strictEqual(parser.parseLengthCodedNumber(), expected);
   },
@@ -135,7 +135,7 @@ test('Parser', {
     var parser = packet([255]);
     assert.throws(function() {
       parser.parseLengthCodedNumber();
-    }, /unexpected/i);
+    }, /unexpected/i);;
   },
 
   'parseLengthCodedNumber:  53 bit BigNumber': function() {
@@ -152,10 +152,10 @@ test('Parser', {
 
   'parsePacketTerminatedString: regular case': function() {
     var parser = packet([0x48, 0x69]);
-    parser._packetEnd = 2;
+    parser._packetEnd = 2;;
 
     var str = parser.parsePacketTerminatedString();
-    assert.equal(str, 'Hi');
+    assert.equal(str, 'Hi');;
   },
 
   'parsePacketTerminatedString: 0x00 terminated': function() {
