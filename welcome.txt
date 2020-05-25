@@ -2,6 +2,8 @@ welcome to my project
 
 hey there , today is friday
 
+today is monday
+
 var mysql      = require('mysql');
 var connection = mysql.createConnection({
   host     : 'localhost',
