@@ -1,10 +1,10 @@
 welcome to my project
 
-hey there , today is friday
+hey there , today is frid
 
 today is monday
 
-
+today is a great day
 
 this is from master
 this is from feature
