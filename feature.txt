@@ -1,3 +1,5 @@
 a new feature is born
 
 this is from feature branch
+
+fixed a bug
