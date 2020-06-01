@@ -11,6 +11,8 @@ this is from feature
 
 hey jenkins can u hear me?
 
+if yes say.. hello world
+
 
 var mysql      = require('mysql');
 var connection = mysql.createConnection({
